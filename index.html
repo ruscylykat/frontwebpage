@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FRONT WEBPAGE</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- navbar -->
+    <nav class="navbar">
+        <h1 class="logo">KATLY NEWS REPORT</h1>
+        <ul class="nav-links">
+            <li class="active"><a href="#"></a>Home</li>
+            <li><a href="#"></a>Tours</li>
+            <li><a href="#"></a>Explore</li>
+            <li><a href="#"></a>About</li>
+            <li class="ctn"><a href="#"></a>Contact</li>
+        </ul>
+        <img src="more.png" alt="" class="menu-btn">
+    </nav>
+
+    <header>
+        <div class="header-content">
+            <h2>Grasp the News</h2>
+            <div class="line"></div>
+            <h1>Discover Daily Insights and Events Right at Your Fingertips</h1>
+            <a href="#" class="ctn">learn more</a>
+        </div>
+    </header>
+
+    <!-- event -->
+    <section class="events">
+
+        <div class="title">
+            <h1>NEWS EVENTS</h1>
+            <div class="line"></div>
+        </div>
+
+        <div class="row">
+
+            <div class="col">
+                <img src="DSWD.png" alt="" class="jutsu">
+                <h4>DSWD</h4>
+                <p>DSWD: Shear line, LPA affect 1.2 million people; over 18,000 families evacuated</p>
+                <a href=https://newsinfo.inquirer.net/1866481/dswd-shear-line-lpa-affect-1-2-million-people-over-18000-families-evacuated?utm_source=(direct)&utm_medium=gallery class="ctn">learn more</a>
+            </div>
+
+            <div class="col">
+                <img src="PCG-1.jpeg" alt="" class="jutsu">
+                <h4>PCG BOATS</h4>
+                <p>PCG boats used in WPS missions join PH-Japan water cannon, towing drills</p>
+                <a href=https://globalnation.inquirer.net/223522/pcg-boats-used-in-wps-missions-join-ph-japan-water-cannon-towing-drills?utm_source=(direct)&utm_medium=gallery class="ctn">learn more</a>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="events">
+
+        <div class="row">
+
+            <div class="col">
+                <img src="MISS U.jpg" alt="" class="jutsu">
+                <h4>MISS UNIVERSE</h4>
+                <p>IN THE SPOTLIGHT: Some of the biggest controversies in Miss Universe history</p>
+                <a href=https://entertainment.inquirer.net/529063/in-the-spotlight-some-of-the-biggest-controversies-in-miss-universe-history?utm_source=(direct)&utm_medium=gallery class="ctn">learn more</a>
+            </div>
+
+            <div class="col">
+                <img src="HAMAS.jpg" alt="" class="jutsu">
+                <h4>HAMAS</h4>
+                <p>WORLD
+                    Hamas releases third group of hostages, says will seek to extend deal</p>
+                <a href=https://newsinfo.inquirer.net/1866383/hamas-releases-third-group-of-hostages-says-will-seek-to-extend-deal?utm_source=(direct)&utm_medium=gallery class="ctn">learn more</a>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="footer">
+        <p>kala niyo website builder noh, asa HAHAHA</p>
+        <p>bulok website builder</p>
+    </section>
+
+    <script>
+        const menuBtn = document.querySelector('.menu-btn')
+        const navlinks = document.querySelector('.nav-links')
+
+        menuBtn.addEventListener('click',()=>{
+            navlinks.classList.toggle('mobile-menu')
+        })
+    </script>
+
+</body>
+</html>
